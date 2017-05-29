@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url("./PressStart2P.ttf");
+}
+
+body{
+    background: #000C00;
+}
+
+#board{
+    border: 1px solid #228B22;
+    display: block;
+    margin: auto;
+}
+
+.blink {
+    animation: blinker 1.5s linear infinite;
+    font-size: 44px !important;
+    position: relative;
+    top: -7px;
+}
+
+@keyframes blinker {
+    0% { opacity: 0; }
+    37% { opacity: 0; }
+    50% { opacity: 100; }
+    62% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+button{
+    background: #000C00;
+    border: 1px solid #228B22;
+    color: forestgreen;
+    display: inline-block;
+    font-family: 'Press Start 2P', cursive;
+    right:50%;
+    padding: 10px;
+    text-align: center;
+}
+
+button:focus {
+    outline: 0;
+}
+
+button:hover {
+    color: #000C00;
+    background: forestgreen;
+}
+
+#clear{
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+#faster{
+    margin-left: 5px;
+}
+
+h1{
+    font-size: 36px;
+}
+
+#slower{
+    margin-right: 5px;
+}
+
+#start{
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.spacer{
+    padding: 5px;
+}
+
+.text{
+    color: forestgreen;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+.wrapper{
+    text-align: center;
+}
