@@ -13,21 +13,6 @@ body{
     margin: auto;
 }
 
-.blink {
-    animation: blinker 1.5s linear infinite;
-    font-size: 44px !important;
-    position: relative;
-    top: -7px;
-}
-
-@keyframes blinker {
-    0% { opacity: 0; }
-    37% { opacity: 0; }
-    50% { opacity: 100; }
-    62% { opacity: 0; }
-    100% { opacity: 0; }
-}
-
 button{
     background: #000C00;
     border: 1px solid #228B22;
